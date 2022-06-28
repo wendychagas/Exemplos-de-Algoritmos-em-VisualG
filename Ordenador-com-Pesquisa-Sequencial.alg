@@ -37,7 +37,7 @@ inicio
       escreval(" Preencher Vetor ")
       escreval()
       para i <- 1 ate 10 faca
-           escreva(i, "° valor: ")
+           escreva(i, "Â° valor: ")
            leia(vetA[i])
       fimpara
       escreval()
@@ -89,10 +89,10 @@ inicio
          
          se (achaA = verdadeiro) entao
             escreval()
-               escreval(pesq, " foi localizado na posição ", i, " do vetor A.")
+               escreval(pesq, " foi localizado na posiÃ§Ã£o ", i, " do vetor A.")
          senao
               escreval()
-              escreval(pesq, " não foi localizado.")
+              escreval(pesq, " nÃ£o foi localizado.")
          fimse
          
          j <- 1
@@ -107,10 +107,10 @@ inicio
          
          se (achaB = verdadeiro) entao
             escreval()
-            escreval(pesq, " foi localizado na posição ", j, " do vetor B.")
+            escreval(pesq, " foi localizado na posiÃ§Ã£o ", j, " do vetor B.")
          senao
               escreval()
-              escreval(pesq, " não foi localizado.")
+              escreval(pesq, " nÃ£o foi localizado.")
          fimse
          
          escreval()
