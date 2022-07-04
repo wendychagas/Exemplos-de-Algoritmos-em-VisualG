@@ -11,7 +11,7 @@ inicio
       escreval("-------------------------------")
       escreval("|s| Solteiros(as) |", totSol, " |")
       escreval("|c| Casados(as)   |", totCas, " |")
-      escreval("|v| Viúvos(as)    |", totViu, " |")
+      escreval("|v| ViÃºvos(as)    |", totViu, " |")
       escreval("-------------------------------")
 fimprocedimento
 //------------------------------------------------------------------------------
@@ -33,7 +33,7 @@ inicio
            totViu <- totViu + 1
       outrocaso
                escreval()
-               escreva("ERRO! Opção inválida.")
+               escreva("ERRO! OpÃ§Ã£o invÃ¡lida.")
       fimescolha
       escreval()
       escreva("Confirmar? [s] [n]: ")
